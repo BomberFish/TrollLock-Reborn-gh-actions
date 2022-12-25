@@ -8,7 +8,7 @@ all:
 	echo "doing some extra magic..."
 	chmod a+x ldid
 	chmod a+x ./TrollLock/build.command
-	bash "PATH = $$PWD:$$PATH"
+	cp ldid /usr/bin
 	echo "done!"
 	echo "building..."
 	./TrollLock/build.command
