@@ -37,6 +37,8 @@
 		6D4EEB3B2956C1C300FD41F6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6D4EEB3C2956C1C300FD41F6 /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		6D76D8C42957449800ABC8F4 /* TrollLock.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = TrollLock.zip; sourceTree = "<group>"; };
+		D6D950A02958D8A60056AF78 /* SFUI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFUI.ttf; sourceTree = "<group>"; };
+		D6D950A12958D8A60056AF78 /* SFUIItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFUIItalic.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,8 @@
 				6D4EEB2F2956C1C300FD41F6 /* poc.h */,
 				6D4EEB302956C1C300FD41F6 /* ViewController.m */,
 				6D4EEB312956C1C300FD41F6 /* SceneDelegate.m */,
+				D6D950A02958D8A60056AF78 /* SFUI.ttf */,
+				D6D950A12958D8A60056AF78 /* SFUIItalic.ttf */,
 				6D4EEB322956C1C300FD41F6 /* LaunchScreen.storyboard */,
 				6D4EEB342956C1C300FD41F6 /* Main.storyboard */,
 				6D4EEB362956C1C300FD41F6 /* main.m */,
@@ -317,7 +321,7 @@
 				DEVELOPMENT_TEAM = A999YUQPG2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TrollLock/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = TrollLock;
+				INFOPLIST_KEY_CFBundleDisplayName = TrollLockFT;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -347,7 +351,7 @@
 				DEVELOPMENT_TEAM = A999YUQPG2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TrollLock/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = TrollLock;
+				INFOPLIST_KEY_CFBundleDisplayName = TrollLockFT;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;

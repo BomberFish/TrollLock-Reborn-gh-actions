@@ -72,11 +72,11 @@
                 pocfontReg();
             });
         }];
-        UIAlertAction *seventhAction = [UIAlertAction actionWithTitle:@"SFUI.ttf"
+        UIAlertAction *seventhAction = [UIAlertAction actionWithTitle:@"SFUIItalic.ttf"
                                                               style:UIAlertActionStyleDefault handler:^(UIAlertAction * action) {
             self->_Active.hidden = false;
             dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 2 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
-                pocfontReg();
+                pocfontIt();
             });
         }];
         
@@ -135,7 +135,7 @@
 
 - (IBAction)info:(id)sender {
     NSString *version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
-    NSString *versionText = @"TrollLock Reborn, Version ";
+    NSString *versionText = @"TrollLock Reborn Font Test, Version ";
     NSString *fullversion = [versionText stringByAppendingString:version];
     UIApplication *application = [UIApplication sharedApplication];
     NSURL *URL = [NSURL URLWithString:@"https://discord.gg/4EFEYnFb7x"];
