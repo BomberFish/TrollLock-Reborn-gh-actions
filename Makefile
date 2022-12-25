@@ -1,6 +1,6 @@
 all: build package clean
 
-PROJECT = $(shell basename *.xcodeproj)
+PROJECT = TrollLock/TrollLock.xcodeproj
 TARGET = TrollLock
 CONFIGURATION = Release
 SDK = iphoneos
