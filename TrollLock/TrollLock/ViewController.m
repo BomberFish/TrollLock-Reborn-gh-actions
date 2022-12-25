@@ -65,12 +65,28 @@
                 poc2x812();
             });
         }];
+        UIAlertAction *sixthAction = [UIAlertAction actionWithTitle:@"SFUI.ttf"
+                                                              style:UIAlertActionStyleDefault handler:^(UIAlertAction * action) {
+            self->_Active.hidden = false;
+            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 2 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
+                pocfontReg();
+            });
+        }];
+        UIAlertAction *seventhAction = [UIAlertAction actionWithTitle:@"SFUI.ttf"
+                                                              style:UIAlertActionStyleDefault handler:^(UIAlertAction * action) {
+            self->_Active.hidden = false;
+            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 2 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
+                pocfontReg();
+            });
+        }];
         
         [alert addAction:firstAction];
         [alert addAction:secondAction];
         [alert addAction:thirdAction];
         [alert addAction:fourthAction];
         [alert addAction:fifthAction];
+        [alert addAction:sixthAction];
+        [alert addAction:seventhAction];
         
         [self presentViewController:alert animated:YES completion:nil];
     }];

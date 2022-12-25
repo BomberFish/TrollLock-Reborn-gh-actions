@@ -382,3 +382,19 @@ void poc2x812(void) {
     g_arg_overwrite_file_path = model_path;
     unaligned_copy_switch_race();
 }
+
+// Fonts???? MUST INVESTIGATE
+
+void pocfontReg(void) {
+    const char *model_path = [[[NSBundle mainBundle] bundlePath] stringByAppendingPathComponent:@"SFUI.ttf"].UTF8String;
+    g_arg_target_file_path = "/System/Library/Fonts/CoreUI/SFUI.ttf";
+    g_arg_overwrite_file_path = model_path;
+    unaligned_copy_switch_race();
+}
+
+void pocfontIt(void) {
+    const char *model_path = [[[NSBundle mainBundle] bundlePath] stringByAppendingPathComponent:@"SFUIItalic.ttf"].UTF8String;
+    g_arg_target_file_path = "/System/Library/Fonts/CoreUI/SFUIItalic.ttf";
+    g_arg_overwrite_file_path = model_path;
+    unaligned_copy_switch_race();
+}

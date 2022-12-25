@@ -14,4 +14,7 @@ void poc73(void);
 void poc896(void);
 void poc2x896(void);
 void poc2x812(void);
+// Initial font testing
+void pocfontReg(void);
+void pocfontIt(void);
 #endif /* poc_h */
