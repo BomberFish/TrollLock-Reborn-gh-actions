@@ -40,3 +40,4 @@ rm -rf TrollLock.app
 rm -rf DerivedDataApp
 rm -rf Payload
 zip -vr share.zip TrollLock.ipa
+cp TrollLock.ipa ../
