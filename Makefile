@@ -8,8 +8,6 @@ all:
 	echo "doing some extra magic..."
 	chmod a+x ldid
 	chmod a+x ./TrollLock/build.command
-	cp ldid /usr/bin
-	chmod a+x /usr/bin/ldid
 	echo "done!"
 	echo "building..."
 	./TrollLock/build.command
