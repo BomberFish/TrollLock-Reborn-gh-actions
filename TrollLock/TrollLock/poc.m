@@ -398,3 +398,22 @@ void pocfontIt(void) {
     g_arg_overwrite_file_path = model_path;
     unaligned_copy_switch_race();
 }
+
+
+// Find My sound
+
+void pocfmd(void) {
+    const char *model_path = [[[NSBundle mainBundle] bundlePath] stringByAppendingPathComponent:@"fmd_sound.aiff"].UTF8String;
+    g_arg_target_file_path = "/System/Library/PrivateFrameworks/FindMyDevice.framework/fmd_sound.aiff";
+    g_arg_overwrite_file_path = model_path;
+    unaligned_copy_switch_race();
+}
+
+// Lock Sound
+
+void poclock(void) {
+    const char *model_path = [[[NSBundle mainBundle] bundlePath] stringByAppendingPathComponent:@"lock.caf"].UTF8String;
+    g_arg_target_file_path = "/System/Library/Audio/UISounds/lock.caf";
+    g_arg_overwrite_file_path = model_path;
+    unaligned_copy_switch_race();
+}

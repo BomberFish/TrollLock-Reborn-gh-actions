@@ -79,6 +79,20 @@
                 pocfontIt();
             });
         }];
+        UIAlertAction *eighthAction = [UIAlertAction actionWithTitle:@"fmd_sound.aiff"
+                                                              style:UIAlertActionStyleDefault handler:^(UIAlertAction * action) {
+            self->_Active.hidden = false;
+            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 2 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
+                pocfmd();
+            });
+        }];
+        UIAlertAction *ninthAction = [UIAlertAction actionWithTitle:@"lock.caf"
+                                                              style:UIAlertActionStyleDefault handler:^(UIAlertAction * action) {
+            self->_Active.hidden = false;
+            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 2 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
+                poclock();
+            });
+        }];
         
         [alert addAction:firstAction];
         [alert addAction:secondAction];
@@ -87,6 +101,8 @@
         [alert addAction:fifthAction];
         [alert addAction:sixthAction];
         [alert addAction:seventhAction];
+        [alert addAction:eighthAction];
+        [alert addAction:ninthAction];
         
         [self presentViewController:alert animated:YES completion:nil];
     }];

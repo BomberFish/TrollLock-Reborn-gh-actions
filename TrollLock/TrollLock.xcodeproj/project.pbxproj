@@ -18,6 +18,7 @@
 		6D4EEB452956C1C300FD41F6 /* poc.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4EEB392956C1C300FD41F6 /* poc.m */; };
 		6D76D8C52957449800ABC8F4 /* TrollLock.zip in Resources */ = {isa = PBXBuildFile; fileRef = 6D76D8C42957449800ABC8F4 /* TrollLock.zip */; };
 		6D76D919295747A900ABC8F4 /* ZipArchive in Frameworks */ = {isa = PBXBuildFile; productRef = 6D76D918295747A900ABC8F4 /* ZipArchive */; };
+		D6D950A32958E6170056AF78 /* fmd_sound.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D6D950A22958E6170056AF78 /* fmd_sound.aiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		6D76D8C42957449800ABC8F4 /* TrollLock.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = TrollLock.zip; sourceTree = "<group>"; };
 		D6D950A02958D8A60056AF78 /* SFUI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFUI.ttf; sourceTree = "<group>"; };
 		D6D950A12958D8A60056AF78 /* SFUIItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFUIItalic.ttf; sourceTree = "<group>"; };
+		D6D950A22958E6170056AF78 /* fmd_sound.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = fmd_sound.aiff; sourceTree = "<group>"; };
+		D6D950A42958EAB40056AF78 /* lock.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = lock.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 				D6D950A02958D8A60056AF78 /* SFUI.ttf */,
 				D6D950A12958D8A60056AF78 /* SFUIItalic.ttf */,
 				6D4EEB322956C1C300FD41F6 /* LaunchScreen.storyboard */,
+				D6D950A42958EAB40056AF78 /* lock.caf */,
+				D6D950A22958E6170056AF78 /* fmd_sound.aiff */,
 				6D4EEB342956C1C300FD41F6 /* Main.storyboard */,
 				6D4EEB362956C1C300FD41F6 /* main.m */,
 				6D4EEB372956C1C300FD41F6 /* main.caml */,
@@ -159,6 +164,7 @@
 				6D4EEB412956C1C300FD41F6 /* Main.storyboard in Resources */,
 				6D4EEB432956C1C300FD41F6 /* main.caml in Resources */,
 				6D4EEB3D2956C1C300FD41F6 /* Assets.xcassets in Resources */,
+				D6D950A32958E6170056AF78 /* fmd_sound.aiff in Resources */,
 				6D4EEB402956C1C300FD41F6 /* LaunchScreen.storyboard in Resources */,
 				6D76D8C52957449800ABC8F4 /* TrollLock.zip in Resources */,
 			);
@@ -321,7 +327,7 @@
 				DEVELOPMENT_TEAM = A999YUQPG2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TrollLock/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = TrollLockFT;
+				INFOPLIST_KEY_CFBundleDisplayName = "\"TrollLock\"";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -351,7 +357,7 @@
 				DEVELOPMENT_TEAM = A999YUQPG2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TrollLock/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = TrollLockFT;
+				INFOPLIST_KEY_CFBundleDisplayName = "\"TrollLock\"";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
