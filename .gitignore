@@ -1,0 +1,5 @@
+# Don't redist ldid please
+ldid
+TrollLock/ldid
+# Build files
+TrollLock/build
