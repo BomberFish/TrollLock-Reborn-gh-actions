@@ -103,11 +103,17 @@
                 self->_Warning.hidden = false;
                 overwriteLock(false, @"", @"/System/Library/PrivateFrameworks/SpringBoardUIServices.framework/lock@2x-812h.ca/main.caml");
             }];
+            UIAlertAction *sixthAction = [UIAlertAction actionWithTitle:@"lock@2x-120fps~ipad.ca" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+                self->_Active.hidden = false;
+                self->_Warning.hidden = false;
+                overwriteLock(true, [[alertController textFields][0] text], @"/System/Library/PrivateFrameworks/SpringBoardUIServices.framework/lock@2x-120fps~ipad.ca/main.caml");
+            }];
             [alertController addAction:firstAction];
             [alertController addAction:secondAction];
             [alertController addAction:thirdAction];
             [alertController addAction:fourthAction];
             [alertController addAction:fifthAction];
+            [alertController addAction:sixthAction];
             [self presentViewController:alertController animated:YES completion:nil];
         }
     }];
