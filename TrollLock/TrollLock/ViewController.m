@@ -65,7 +65,7 @@
             UIAlertAction *sixthAction = [UIAlertAction actionWithTitle:@"lock@2x-120fps~ipad.ca" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
                 self->_Active.hidden = false;
                 self->_Warning.hidden = false;
-                overwriteLock(true, [[alertController textFields][0] text], @"/System/Library/PrivateFrameworks/SpringBoardUIServices.framework/lock@2x-120fps~ipad.ca/main.caml");
+                trollPrepare(false, @"", @"/System/Library/PrivateFrameworks/SpringBoardUIServices.framework/lock@2x-120fps~ipad.ca/main.caml");
             }];
             [alertController addAction:firstAction];
             [alertController addAction:secondAction];
@@ -106,7 +106,7 @@
             UIAlertAction *sixthAction = [UIAlertAction actionWithTitle:@"lock@2x-120fps~ipad.ca" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
                 self->_Active.hidden = false;
                 self->_Warning.hidden = false;
-                overwriteLock(true, [[alertController textFields][0] text], @"/System/Library/PrivateFrameworks/SpringBoardUIServices.framework/lock@2x-120fps~ipad.ca/main.caml");
+                trollPrepare(false, @"", @"/System/Library/PrivateFrameworks/SpringBoardUIServices.framework/lock@2x-120fps~ipad.ca/main.caml");
             }];
             [alertController addAction:firstAction];
             [alertController addAction:secondAction];
