@@ -258,11 +258,6 @@ void replace_file_page(char* target_path, uint32_t target_offset, uint8_t* new_p
     printf("failed to open the target file\n");
   }
   
-  if (ROUND_DOWN_PAGE(target_offset) != target_offset) {
-    printf("ERROR: this API only works for whole pages!!\n");
-    return;
-  }
-  
   // map the target page so we can test if this r/o mapping gets modified
   success_ptr = mmap(0, PAGE_SIZE, PROT_READ, MAP_FILE | MAP_SHARED, target_fd, target_offset);
   if (success_ptr == MAP_FAILED) {
